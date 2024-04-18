@@ -1,0 +1,6 @@
+framework module FTSDK {
+  umbrella header "FTSDK.h"
+
+  export *
+  module * { export * }
+}

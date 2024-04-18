@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A15F17A2A9DCC86003BC1BF /* FTEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A15F1782A9DCC86003BC1BF /* FTEngine.h */; };
+		8A15F17B2A9DCC86003BC1BF /* FTEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A15F1792A9DCC86003BC1BF /* FTEngine.m */; };
+		8A2195292AD156190005852B /* FTPeerScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2195272AD156190005852B /* FTPeerScreen.h */; };
+		8A21952A2AD156190005852B /* FTPeerScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2195282AD156190005852B /* FTPeerScreen.m */; };
+		8A4A0EF82AB1A596005EE4A0 /* FTPeerRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4A0EF62AB1A596005EE4A0 /* FTPeerRemote.h */; };
+		8A4A0EF92AB1A596005EE4A0 /* FTPeerRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A0EF72AB1A596005EE4A0 /* FTPeerRemote.m */; };
+		8A5AF0912A94A3D6009269EF /* FTSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 8A5AF0902A94A3D6009269EF /* FTSDK.docc */; };
+		8A5AF09D2A94A3D7009269EF /* FTSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5AF08F2A94A3D6009269EF /* FTSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A7D107A2ADE3339007711F9 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5AF0A72A94A5ED009269EF /* WebRTC.framework */; };
+		8AB0A5302A95BD0E00EE2CA3 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB0A52E2A95BD0E00EE2CA3 /* SRWebSocket.m */; };
+		8AB0A5312A95BD0E00EE2CA3 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB0A52F2A95BD0E00EE2CA3 /* SRWebSocket.h */; };
+		8AB0A5362A95BD6C00EE2CA3 /* FTWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB0A5322A95BD6C00EE2CA3 /* FTWebSocket.m */; };
+		8AB0A5372A95BD6C00EE2CA3 /* FTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB0A5332A95BD6C00EE2CA3 /* FTClient.m */; };
+		8AB0A5382A95BD6C00EE2CA3 /* FTClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB0A5342A95BD6C00EE2CA3 /* FTClient.h */; };
+		8AB0A5392A95BD6C00EE2CA3 /* FTWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB0A5352A95BD6C00EE2CA3 /* FTWebSocket.h */; };
+		8AB0A5412A9878BC00EE2CA3 /* FTTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB0A53F2A9878BC00EE2CA3 /* FTTool.h */; };
+		8AB0A5422A9878BC00EE2CA3 /* FTTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB0A5402A9878BC00EE2CA3 /* FTTool.m */; };
+		8AB130472AA17D45008182FE /* FTPeerAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB130452AA17D45008182FE /* FTPeerAudio.h */; };
+		8AB130482AA17D45008182FE /* FTPeerAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB130462AA17D45008182FE /* FTPeerAudio.m */; };
+		8AB1304A2AA6D9DD008182FE /* FTSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB130492AA6D9DD008182FE /* FTSDK.m */; };
+		8AB130512AAF0297008182FE /* FTPeerVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB1304F2AAF0297008182FE /* FTPeerVideo.h */; };
+		8AB130522AAF0297008182FE /* FTPeerVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB130502AAF0297008182FE /* FTPeerVideo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A15F1782A9DCC86003BC1BF /* FTEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTEngine.h; sourceTree = "<group>"; };
+		8A15F1792A9DCC86003BC1BF /* FTEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTEngine.m; sourceTree = "<group>"; };
+		8A2195272AD156190005852B /* FTPeerScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPeerScreen.h; sourceTree = "<group>"; };
+		8A2195282AD156190005852B /* FTPeerScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPeerScreen.m; sourceTree = "<group>"; };
+		8A4A0EF62AB1A596005EE4A0 /* FTPeerRemote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPeerRemote.h; sourceTree = "<group>"; };
+		8A4A0EF72AB1A596005EE4A0 /* FTPeerRemote.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPeerRemote.m; sourceTree = "<group>"; };
+		8A5AF08C2A94A3D6009269EF /* FTSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FTSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5AF08F2A94A3D6009269EF /* FTSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTSDK.h; sourceTree = "<group>"; };
+		8A5AF0902A94A3D6009269EF /* FTSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FTSDK.docc; sourceTree = "<group>"; };
+		8A5AF09B2A94A3D7009269EF /* FTSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSDKTests.m; sourceTree = "<group>"; };
+		8A5AF0A72A94A5ED009269EF /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+		8AB0A52E2A95BD0E00EE2CA3 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		8AB0A52F2A95BD0E00EE2CA3 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		8AB0A5322A95BD6C00EE2CA3 /* FTWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWebSocket.m; sourceTree = "<group>"; };
+		8AB0A5332A95BD6C00EE2CA3 /* FTClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTClient.m; sourceTree = "<group>"; };
+		8AB0A5342A95BD6C00EE2CA3 /* FTClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTClient.h; sourceTree = "<group>"; };
+		8AB0A5352A95BD6C00EE2CA3 /* FTWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWebSocket.h; sourceTree = "<group>"; };
+		8AB0A53F2A9878BC00EE2CA3 /* FTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTool.h; sourceTree = "<group>"; };
+		8AB0A5402A9878BC00EE2CA3 /* FTTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTool.m; sourceTree = "<group>"; };
+		8AB130452AA17D45008182FE /* FTPeerAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPeerAudio.h; sourceTree = "<group>"; };
+		8AB130462AA17D45008182FE /* FTPeerAudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPeerAudio.m; sourceTree = "<group>"; };
+		8AB130492AA6D9DD008182FE /* FTSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTSDK.m; sourceTree = "<group>"; };
+		8AB1304F2AAF0297008182FE /* FTPeerVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPeerVideo.h; sourceTree = "<group>"; };
+		8AB130502AAF0297008182FE /* FTPeerVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPeerVideo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A5AF0892A94A3D6009269EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7D107A2ADE3339007711F9 /* WebRTC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A5AF0822A94A3D6009269EF = {
+			isa = PBXGroup;
+			children = (
+				8A5AF08E2A94A3D6009269EF /* FTSDK */,
+				8A5AF09A2A94A3D7009269EF /* FTSDKTests */,
+				8A5AF08D2A94A3D6009269EF /* Products */,
+				8A5AF0A62A94A5ED009269EF /* WebRTC */,
+			);
+			sourceTree = "<group>";
+		};
+		8A5AF08D2A94A3D6009269EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A5AF08C2A94A3D6009269EF /* FTSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A5AF08E2A94A3D6009269EF /* FTSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8A15F1782A9DCC86003BC1BF /* FTEngine.h */,
+				8A15F1792A9DCC86003BC1BF /* FTEngine.m */,
+				8A5AF0902A94A3D6009269EF /* FTSDK.docc */,
+				8A5AF08F2A94A3D6009269EF /* FTSDK.h */,
+				8AB130492AA6D9DD008182FE /* FTSDK.m */,
+				8AB130402AA1752B008182FE /* peer */,
+				8AB0A53E2A9878BC00EE2CA3 /* util */,
+				8AB0A52D2A95BD0E00EE2CA3 /* ws */,
+			);
+			path = FTSDK;
+			sourceTree = "<group>";
+		};
+		8A5AF09A2A94A3D7009269EF /* FTSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A5AF09B2A94A3D7009269EF /* FTSDKTests.m */,
+			);
+			path = FTSDKTests;
+			sourceTree = "<group>";
+		};
+		8A5AF0A62A94A5ED009269EF /* WebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				8A5AF0A72A94A5ED009269EF /* WebRTC.framework */,
+			);
+			path = WebRTC;
+			sourceTree = SOURCE_ROOT;
+		};
+		8AB0A52D2A95BD0E00EE2CA3 /* ws */ = {
+			isa = PBXGroup;
+			children = (
+				8AB0A5342A95BD6C00EE2CA3 /* FTClient.h */,
+				8AB0A5332A95BD6C00EE2CA3 /* FTClient.m */,
+				8AB0A5352A95BD6C00EE2CA3 /* FTWebSocket.h */,
+				8AB0A5322A95BD6C00EE2CA3 /* FTWebSocket.m */,
+				8AB0A52F2A95BD0E00EE2CA3 /* SRWebSocket.h */,
+				8AB0A52E2A95BD0E00EE2CA3 /* SRWebSocket.m */,
+			);
+			path = ws;
+			sourceTree = "<group>";
+		};
+		8AB0A53E2A9878BC00EE2CA3 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				8AB0A53F2A9878BC00EE2CA3 /* FTTool.h */,
+				8AB0A5402A9878BC00EE2CA3 /* FTTool.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		8AB130402AA1752B008182FE /* peer */ = {
+			isa = PBXGroup;
+			children = (
+				8AB130452AA17D45008182FE /* FTPeerAudio.h */,
+				8AB130462AA17D45008182FE /* FTPeerAudio.m */,
+				8AB1304F2AAF0297008182FE /* FTPeerVideo.h */,
+				8AB130502AAF0297008182FE /* FTPeerVideo.m */,
+				8A4A0EF62AB1A596005EE4A0 /* FTPeerRemote.h */,
+				8A4A0EF72AB1A596005EE4A0 /* FTPeerRemote.m */,
+				8A2195272AD156190005852B /* FTPeerScreen.h */,
+				8A2195282AD156190005852B /* FTPeerScreen.m */,
+			);
+			path = peer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A5AF0872A94A3D6009269EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4A0EF82AB1A596005EE4A0 /* FTPeerRemote.h in Headers */,
+				8AB130512AAF0297008182FE /* FTPeerVideo.h in Headers */,
+				8A15F17A2A9DCC86003BC1BF /* FTEngine.h in Headers */,
+				8A5AF09D2A94A3D7009269EF /* FTSDK.h in Headers */,
+				8AB130472AA17D45008182FE /* FTPeerAudio.h in Headers */,
+				8AB0A5412A9878BC00EE2CA3 /* FTTool.h in Headers */,
+				8A2195292AD156190005852B /* FTPeerScreen.h in Headers */,
+				8AB0A5392A95BD6C00EE2CA3 /* FTWebSocket.h in Headers */,
+				8AB0A5312A95BD0E00EE2CA3 /* SRWebSocket.h in Headers */,
+				8AB0A5382A95BD6C00EE2CA3 /* FTClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8A5AF08B2A94A3D6009269EF /* FTSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5AF0A02A94A3D7009269EF /* Build configuration list for PBXNativeTarget "FTSDK" */;
+			buildPhases = (
+				8A5AF0872A94A3D6009269EF /* Headers */,
+				8A5AF0882A94A3D6009269EF /* Sources */,
+				8A5AF0892A94A3D6009269EF /* Frameworks */,
+				8A5AF08A2A94A3D6009269EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTSDK;
+			productName = FTSDK;
+			productReference = 8A5AF08C2A94A3D6009269EF /* FTSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A5AF0832A94A3D6009269EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8A5AF08B2A94A3D6009269EF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8A5AF0862A94A3D6009269EF /* Build configuration list for PBXProject "FTSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A5AF0822A94A3D6009269EF;
+			productRefGroup = 8A5AF08D2A94A3D6009269EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A5AF08B2A94A3D6009269EF /* FTSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A5AF08A2A94A3D6009269EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A5AF0882A94A3D6009269EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB130482AA17D45008182FE /* FTPeerAudio.m in Sources */,
+				8AB0A5302A95BD0E00EE2CA3 /* SRWebSocket.m in Sources */,
+				8A15F17B2A9DCC86003BC1BF /* FTEngine.m in Sources */,
+				8AB1304A2AA6D9DD008182FE /* FTSDK.m in Sources */,
+				8AB0A5422A9878BC00EE2CA3 /* FTTool.m in Sources */,
+				8A5AF0912A94A3D6009269EF /* FTSDK.docc in Sources */,
+				8AB130522AAF0297008182FE /* FTPeerVideo.m in Sources */,
+				8A4A0EF92AB1A596005EE4A0 /* FTPeerRemote.m in Sources */,
+				8AB0A5362A95BD6C00EE2CA3 /* FTWebSocket.m in Sources */,
+				8AB0A5372A95BD6C00EE2CA3 /* FTClient.m in Sources */,
+				8A21952A2AD156190005852B /* FTPeerScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A5AF09E2A94A3D7009269EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A5AF09F2A94A3D7009269EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A5AF0A12A94A3D7009269EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebRTC",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fangte.FTSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8A5AF0A22A94A3D7009269EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebRTC",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fangte.FTSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A5AF0862A94A3D6009269EF /* Build configuration list for PBXProject "FTSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5AF09E2A94A3D7009269EF /* Debug */,
+				8A5AF09F2A94A3D7009269EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A5AF0A02A94A3D7009269EF /* Build configuration list for PBXNativeTarget "FTSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5AF0A12A94A3D7009269EF /* Debug */,
+				8A5AF0A22A94A3D7009269EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A5AF0832A94A3D6009269EF /* Project object */;
+}
